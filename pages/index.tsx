@@ -109,7 +109,7 @@ export default function Home({
         ))}
       </Marquee>
       <Hero
-        headline="Release Details: The Yeezy BOOST 350 V2 ‘Natural'"
+        headline="Release Details: The Yeezy BOOST 350 V2 ‘Unnatural'"
         description="
         The Yeezy BOOST 350 V2 lineup continues to grow. We recently had the
         ‘Carbon’ iteration, and now release details have been locked in for
