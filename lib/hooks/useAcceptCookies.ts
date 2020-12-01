@@ -8,7 +8,7 @@ export const useAcceptCookies = () => {
 
   useEffect(() => {
     if (!Cookies.get(COOKIE_NAME)) {
-      setAcceptedCookies(false)
+      setAcceptedCookies(true)
     }
   }, [])
 
