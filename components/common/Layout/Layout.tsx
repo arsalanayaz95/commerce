@@ -72,7 +72,7 @@ const Layout: FC<Props> = ({ children, pageProps }) => {
           {modalView === 'FORGOT_VIEW' && <ForgotPassword />}
         </Modal>
 
-        <FeatureBar
+        {/* <FeatureBar
           title="This site uses cookies to improve your experience. By clicking, you agree to our Privacy Policy."
           hide={acceptedCookies}
           action={
@@ -80,7 +80,7 @@ const Layout: FC<Props> = ({ children, pageProps }) => {
               Accept cookies
             </Button>
           }
-        />
+        /> */}
       </div>
     </CommerceProvider>
   )

@@ -4,7 +4,7 @@ import Cookies from 'js-cookie'
 const COOKIE_NAME = 'accept_cookies'
 
 export const useAcceptCookies = () => {
-  const [acceptedCookies, setAcceptedCookies] = useState(false)
+  const [acceptedCookies, setAcceptedCookies] = useState(true)
 
   useEffect(() => {
     if (!Cookies.get(COOKIE_NAME)) {
